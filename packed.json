@@ -1,0 +1,12 @@
+{
+  "name": "ftu-tkb-simple",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch_ftu_tkb.js",
+    "start": "npx http-server -c-1 -p 8080 public"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0"
+  }
+}
